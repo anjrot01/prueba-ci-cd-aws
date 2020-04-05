@@ -1,0 +1,11 @@
+version: 0.2
+
+phases:
+  pre_build:
+    commands:
+      - echo Instalar dependencias...
+      - npm install
+  build:
+    commands:
+      - npm run build
+      - npm start

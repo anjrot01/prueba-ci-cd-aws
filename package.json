@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start",
+    "start": "pm2 start --name 'deploying' -- next start",
     "export": "next export"
   },
   "license": "ISC",
